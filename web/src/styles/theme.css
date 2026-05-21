@@ -1,0 +1,56 @@
+/* theme.css - Light & Dark HSL Color variables */
+
+:root {
+  /* Fonts */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+  /* Theme tokens - Light Mode */
+  --background: 210 20% 98%;      /* Very light cool gray */
+  --foreground: 224 71.4% 4.1%;    /* Very dark slate */
+
+  --card: 0 0% 100%;               /* White */
+  --card-foreground: 224 71.4% 4.1%;
+
+  --primary: 221.2 83.2% 53.3%;    /* Vibrant Blue */
+  --primary-foreground: 210 40% 98%;
+
+  --secondary: 220 14.3% 95.9%;    /* Light gray */
+  --secondary-foreground: 220.9 39.3% 11%;
+
+  --accent: 262.1 83.3% 57.8%;     /* Vibrant Purple Accent */
+  --accent-foreground: 210 40% 98%;
+
+  --muted: 220 14.3% 95.9%;
+  --muted-foreground: 220 8.9% 46.1%;
+
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 221.2 83.2% 53.3%;
+
+  --radius: 0.75rem;
+}
+
+[data-theme='dark'] {
+  /* Theme tokens - Dark Mode */
+  --background: 224 71.4% 4.1%;     /* Dark slate */
+  --foreground: 210 40% 98%;        /* Light text */
+
+  --card: 222.2 47.4% 11.2%;       /* Dark slate card */
+  --card-foreground: 210 40% 98%;
+
+  --primary: 217.2 91.2% 59.8%;    /* Lighter Vibrant Blue */
+  --primary-foreground: 222.2 47.4% 11.2%;
+
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+
+  --accent: 263.4 70% 50.4%;       /* Lighter Purple */
+  --accent-foreground: 210 40% 98%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+}
